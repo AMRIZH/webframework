@@ -1,0 +1,63 @@
+# Python
+*.py[cod]
+*.pyo
+__pycache__/
+*.so
+
+# Django migrations
+*/migrations/*
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Virtual environments
+djvenv/
+venv/
+.env/
+env/
+ENV/
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Static and media files (Django)
+staticfiles/
+media/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
+
+# Celery task queue
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+logs/
+
+# Cache files
+*.swp
+*.swo
+
+# Other Python tools
+pip-log.txt
+pip-delete-this-directory.txt

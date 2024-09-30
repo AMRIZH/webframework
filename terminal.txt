@@ -1,0 +1,3 @@
+djvenv\Scripts\activate
+cd firstproject
+python manage.py runserver 80
